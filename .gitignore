@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Python environments
+venv/
+env/
+ENV/
+
+# Dataset and results
+**/dataset_yolo/
+**/results_*/
+**/yolo_results_*/
+
+# YOLOv5
+**/yolov5/
+yolov5/
+
+# Model weights
+*.pt
+*.pth
+
+# Images
+*.jpg
+*.jpeg
+*.png 

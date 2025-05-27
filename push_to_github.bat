@@ -1,0 +1,9 @@
+@echo off
+echo Setting up remote repository...
+git remote add origin https://github.com/SeriousBlack22/Counting-Challenge.git
+echo Setting main branch...
+git branch -M main
+echo Pushing to GitHub...
+git push -u origin main
+echo Done!
+pause 
